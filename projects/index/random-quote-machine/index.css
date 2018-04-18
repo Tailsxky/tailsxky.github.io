@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+  	* {
+  margin: 0;
+  padding: 0;
+
+  }
+  body {
+  	background-color: #fff;
+  	font-family: 'Raleway', sans-serif;
+  	font-size: 16px;
+
+  }
+  .QuoteBox {
+  	margin:5% auto auto auto;
+  	width: 450px;
+  	background: #fff;
+  	border-radius: 5px;
+  }
+  .QuoteText{
+  	font-size: 2rem;
+  	font-weight: 500;
+  	margin: 2rem;
+  	padding-top: 1rem;
+  	text-align: center;
+  }
+
+	.QuoteAuthor {
+		text-align: right;
+		margin-right: 3rem;
+		font-size: 0.85em;
+	}
+
+	.buttons div {
+		display: inline-block;
+		margin-bottom:1rem; 
+		color: #fff;
+		height: 40px; 
+	}
+
+	.buttons #getNewQuote{
+		margin-top: 1.3rem;
+		margin-right: 3rem;
+		float: right;
+
+	}
+	
+	.buttons .shareBtn {
+		margin-left:3rem; 
+
+	}
+
+	.buttonStyle {
+		border-radius: 5px;	
+		padding:0.5rem;
+		cursor: pointer;
+	}
+
+	.buttonStyle:hover {
+		opacity: 0.85;
+	}
+
+	.social-buttons {
+	 margin-top: 0.5rem;
+    margin-left: 1rem;
+}
